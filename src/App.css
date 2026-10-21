@@ -1,0 +1,32 @@
+:root, html, body, #root {
+  color-scheme: light !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 100vh !important;
+  display: block !important;
+  background-color: #F5F7F7 !important;
+  color: #202729 !important;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Fix overlapping multi-line headings */
+h1, h2, h3, h4 {
+  line-height: 1.28 !important;
+  letter-spacing: -0.015em;
+}
+
+/* Force all search boxes, inputs, dropdowns & textareas to pure white */
+input, select, textarea {
+  background-color: #FFFFFF !important;
+  color: #0B2545 !important;
+  color-scheme: light !important;
+}
+input::placeholder, textarea::placeholder {
+  color: #64748B !important;
+  opacity: 1 !important;
+}
